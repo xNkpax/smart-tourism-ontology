@@ -1,0 +1,1236 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.example.org/SmartTourismOntology" ],
+    "iri" : "http://www.example.org/SmartTourismOntology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "instances" : 0,
+    "union" : [ "1", "4", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#LuxuryHotel",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#HotelReinaPetronila",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "HotelReinaPetronila",
+        "undefined" : "Hotel Reina Petronila"
+      }
+    } ],
+    "id" : "6",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "4", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "7"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Park",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park"
+    },
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Airplane",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airplane"
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "19" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "17"
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "1", "4", "22", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Exhibition",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exhibition"
+    },
+    "id" : "25",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Transport",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#BusZaragoza",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "BusZaragoza",
+        "undefined" : "Autobús de Zaragoza"
+      }
+    } ],
+    "subClasses" : [ "28", "15", "29" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Train",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Train"
+    },
+    "id" : "28",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Museum",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#GoyaMuseum",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "GoyaMuseum",
+        "undefined" : "Goya Museum"
+      }
+    } ],
+    "id" : "32",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Monument",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument"
+    },
+    "id" : "44",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Resort",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resort"
+    },
+    "id" : "48",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#TraditionalCuisineRestaurant",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TraditionalCuisineRestaurant"
+    },
+    "id" : "49",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Attraction",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#GoyaMuseum",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "GoyaMuseum",
+        "undefined" : "Goya Museum"
+      }
+    } ],
+    "subClasses" : [ "13", "44", "32" ],
+    "id" : "4"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "22" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#BudgetHotel",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BudgetHotel"
+    },
+    "id" : "61",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Event",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#FiestaDelPilar",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "FiestaDelPilar",
+        "undefined" : "Fiesta del Pilar"
+      }
+    } ],
+    "subClasses" : [ "75", "79", "25" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#City",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#Zaragoza",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "Zaragoza",
+        "undefined" : "Zaragoza"
+      }
+    } ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#GourmetRestaurant",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GourmetRestaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#RestauranteGamberro",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "RestauranteGamberro",
+        "undefined" : "Restaurante Gamberro"
+      }
+    } ],
+    "id" : "55",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Bus",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#BusZaragoza",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "BusZaragoza",
+        "undefined" : "Autobús de Zaragoza"
+      }
+    } ],
+    "id" : "29",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Hotel",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#HotelReinaPetronila",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "HotelReinaPetronila",
+        "undefined" : "Hotel Reina Petronila"
+      }
+    } ],
+    "subClasses" : [ "48", "6", "61" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Festival",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Festival"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#FiestaDelPilar",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "FiestaDelPilar",
+        "undefined" : "Fiesta del Pilar"
+      }
+    } ],
+    "id" : "75",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Concert",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concert"
+    },
+    "id" : "79",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#FastFood",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FastFood"
+    },
+    "id" : "57",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#Restaurant",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/SmartTourismOntology#RestauranteGamberro",
+      "baseIri" : "http://www.example.org/SmartTourismOntology",
+      "labels" : {
+        "IRI-based" : "RestauranteGamberro",
+        "undefined" : "Restaurante Gamberro"
+      }
+    } ],
+    "subClasses" : [ "57", "55", "49" ],
+    "id" : "1"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasAveragePrice",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasAveragePrice"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Precio medio en restaurante"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "10",
+    "subproperty" : [ "11", "12" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasRating",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasRating"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "Valoración (1.0–5.0)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasCityID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasCityID"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "ID de ciudad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#locatedInRegion",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "locatedInRegion"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Región donde está la ciudad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasEventID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasEventID"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "ID del evento"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#isLocatedIn",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "isLocatedIn"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Un hotel está en una sola ciudad\nUn restaurante está en una sola ciudad\nUna atracción está en una sola ciudad"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasTransportrID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasTransportrID"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "ID de transporte"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "range" : "4",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "4",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "1",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "1",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasHotelType",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasHotelType"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Tipo de hotel (playa, urbano, rural...)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "5",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasAverageCost",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasAverageCost"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Costo medio"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasPopulation",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasPopulation"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Población"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasTransportType",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasTransportType"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Tipo de transporte (bus, tren, avión...)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#isOperatedIn",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "isOperatedIn"
+    },
+    "domain" : "16",
+    "attributes" : [ "functional", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasStartDate",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasStartDate"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Fecha de inicio del evento"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "69"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "16",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "5",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "16",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "22",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "22",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "22",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#sameAs",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "sameAs"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasPricePerNight",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasPricePerNight"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Precio por noche"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasCuisineType",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "hasCuisineType"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Tipo de cocina (italiana, japonesa, etc.)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#isHeldIn",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "isHeldIn"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Cada evento se celebra en una ciudad"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasAttractionID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasAttractionID"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "ID de atracción"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasCompany",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasCompany"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Empresa de transporte"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasName",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasName"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Nombre"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasAddress",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasAddress"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Dirección"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasHotelID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasHotelID"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "ID de hotel"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasStars",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasStars"
+    },
+    "minCardinality" : "4",
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Estrellas (1-5)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasType",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "domain" : "76",
+    "comment" : {
+      "undefined" : "Tipo de atracción o tipo de evento"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasEndDate",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasEndDate"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Fecha de fin del evento (igual a fecha si no hay más datos)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#hasRestaurantID",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasRestaurantID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "ID de restaurante"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.example.org/SmartTourismOntology#locatedInCountry",
+    "baseIri" : "http://www.example.org/SmartTourismOntology",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "locatedInCountry"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "País donde está la ciudad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  } ]
+}
